@@ -1,36 +1,73 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="#">{{ title }}</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Dropdown
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
-						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
-					</ul>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled">Disabled</a>
-				</li>
-			</ul>
+<!--Page Wrapper-->
+<div class="container">
+	<!--Title Bar-->
+	<div id="TopBar" class="row d-flex justify-content-start pt-2">
+		<div class="col">
+			<a href="#" class="d-flex flex-row justify-content-start align-items-center">
+				<i class="fas fa-paw fs-3"></i>
+	
+				<p class="fs-3 p-0 ps-3 m-0">{{ title }}</p>
+			</a>
+		</div>
+		
+		<div class="col-3">
 			<form class="d-flex">
 				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success" type="submit">Search</button>
+				
+				<button class="btn btn-outline-success" type="submit">
+					<i class="fas fa-search"></i>
+				</button>
 			</form>
 		</div>
 	</div>
-</nav>
+
+	<main class="row">
+		<nav class="col">
+			<ul class="list-unstyled">
+				<li>
+					<a href="#" class="text-decoration-none d-flex flex-row justify-content-start align-items-center">
+						<i class="fas fa-home"></i>
+
+						<p class="fs-5 p-0 ps-2 m-0">
+							Home
+						</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="text-decoration-none d-flex flex-row justify-content-start align-items-center">
+						<i class="fas fa-envelope"></i>
+
+						<p class="fs-5 p-0 ps-2 m-0">
+							Messages
+						</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="text-decoration-none d-flex flex-row justify-content-start align-items-center">
+						<i class="fas fa-user"></i>
+
+						<p class="fs-5 p-0 ps-2 m-0">
+							Profile
+						</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="text-decoration-none d-flex flex-row justify-content-start align-items-center">
+						<i class="fas fa-cog"></i>
+
+						<p class="fs-5 p-0 ps-2 m-0">
+							Settings
+						</p>
+					</a>
+				</li>	
+			</ul>
+		</nav>
+
+		<div id="BodyWrapper" class="col">
+
+		</div>
+	</main>
+</div>
