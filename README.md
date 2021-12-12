@@ -1,27 +1,21 @@
 # OpenFur
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
+Currently in early development. OpenFur intends to be a community driven effort to create an Art and Social platform for the Furry community.
+Made for the community, by the community. Allowing for much needed features and updates to be added or requested quicker than privately maintained platforms.
 
-## Development server
+## Roadmap
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- ❌ Desktop web interface
+- ❌ Mobile web interface
+- ❌ Desktop bulk upload client
 
-## Code scaffolding
+## Technical
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Web platform written in Angular
 
-## Build
+## Contact
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+If you have any questions or would like to contribute. Currently I am reachable at: [@RatPlushie](https://t.me/RatPlushie) on telegram
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Thanks
+- RatPlushie
