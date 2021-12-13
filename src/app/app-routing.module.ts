@@ -6,10 +6,11 @@ import { BodyProfileComponent } from './components/body-profile/body-profile.com
 import { BodySettingsComponent } from './components/body-settings/body-settings.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: BodyHomeComponent },
   { path: 'messages', component: BodyMessagesComponent},
-  { path: "profile", component: BodyProfileComponent},
-  { path: "settings", component: BodySettingsComponent }
+  { path: 'profile', component: BodyProfileComponent},
+  { path: 'settings', component: BodySettingsComponent }
 ];
 
 @NgModule({
